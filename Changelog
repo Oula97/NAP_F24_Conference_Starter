@@ -1,0 +1,86 @@
+# Changelog – NAP F24 Conference Application
+
+**Project Code:** ISE_F24_NAP_C1  
+**Instructor:** Eng. Ghayth Moustapha  
+**Semester:** Fall 2025  
+
+---
+
+## [v1.0] – 15-10-2025 – Final Submission
+### Added
+- Full **TCP Chat System** with:
+  - Real-time messaging
+  - Multi-user support in rooms
+  - Display of messages in WinForms GUI
+- **UDP Video Streaming**
+  - Capture webcam video using AForge
+  - Send/Receive video frames via UDP
+  - Display local and remote video in real-time
+- **UDP Audio Streaming**
+  - Capture microphone input using NAudio
+  - Send/Receive audio in real-time
+  - Mute/Unmute functionality
+- **Room Management**
+  - Create, join, delete rooms in MainDashboard
+  - Track room membership
+- **Multithreading**
+  - TCP listening and UDP receive run in background threads
+  - Smooth handling of multiple clients
+- **GUI Improvements**
+  - RoomForm with chat, video, audio controls
+  - MainDashboard for room management
+  - Start form to launch the application
+- **Resource Cleanup**
+  - Stop streaming and dispose audio/video devices on exit
+  - Proper closure of TCP and UDP connections
+
+### Changed
+- Unified server ports:
+  - TCP: 5000
+  - UDP Video: 6000
+  - UDP Audio: 6001
+- Default username generated randomly for each client
+- Display “[You]” for messages sent by the local user
+
+### Fixed
+- Prevent client crash on server disconnect
+- Proper handling of closing forms and stopping threads
+- Video and audio streams displayed only when connected
+
+---
+
+## [v0.9] – 10-10-2025 – Beta Version
+### Added
+- Basic TCP Chat between single client and server
+- Preliminary RoomManager on server
+- UDP client for video streaming (sending only)
+- WinForms UI for chat messages
+- Initial support for multiple rooms (local only)
+
+### Changed
+- Integrated random username generation
+- Added threads for listening TCP messages
+
+### Fixed
+- Null reference errors in video capture
+
+---
+
+## [v0.8] – 01-10-2025 – Alpha Version
+### Added
+- Server setup:
+  - TCP listener for chat
+  - UDP listener for video
+- Client setup:
+  - Connect to TCP server
+  - Capture webcam frames
+- Basic threading for server and client
+
+### Notes
+- Audio streaming not yet implemented
+- No room management in UI
+- Only single client supported
+
+---
+
+**End of Changelog**

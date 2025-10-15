@@ -100,9 +100,7 @@ The application supports multiple participants in conference rooms with real-tim
 ---
 
 ### **7. Changelog**
-- **v1.0** (21-10-2025): Initial release with TCP chat, UDP video/audio streaming, multi-room support, and GUI.  
+- **v1.0** (15-10-2025): Initial release with TCP chat, UDP video/audio streaming, multi-room support, and GUI.  
 
 ---
 
-**Instructor Contact:** t_gmoustapha@svuonline.org  
-**Good Luck!**

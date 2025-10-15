@@ -1,4 +1,4 @@
-# Changelog – NAP F24 Conference Application
+# Change log – NAP F24 Conference Application
 
 **Project Code:** ISE_F24_NAP_C1  
 **Instructor:** Eng. Ghayth Moustapha  

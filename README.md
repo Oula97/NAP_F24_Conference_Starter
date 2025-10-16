@@ -99,7 +99,7 @@ The application supports multiple participants in conference rooms with real-tim
 
 ---
 
-### **7. Changelog**
+### **7. Changelog** Change log.md
 - **v1.0** (15-10-2025): Initial release with TCP chat, UDP video/audio streaming, multi-room support, and GUI.  
 
 ---
